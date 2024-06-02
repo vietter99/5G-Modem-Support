@@ -1,246 +1,245 @@
 ﻿msgid "Modem"
-msgstr "调制解调器"
+msgstr "Modem"
 
 msgid "SMS Messages"
-msgstr "SMS 信息"
+msgstr "Thông điệp SMS"
 
 msgid "Received Messages"
-msgstr "接收信息"
+msgstr "Thông điệp đã nhận"
 
 msgid "Send Messages"
-msgstr "发送信息"
+msgstr "Gửi thông điệp"
 
 msgid "From"
-msgstr "发件人"
+msgstr "Từ"
 
 msgid "Received"
-msgstr "接收时间"
+msgstr "Thời gian nhận"
 
 msgid "Message"
-msgstr "信息"
+msgstr "Thông điệp"
 
 msgid "Configuration"
-msgstr "参数配置"
+msgstr "Cấu hình"
 
 msgid "Sample codes"
-msgstr "代码样本"
+msgstr "Mã nguồn mẫu"
 
 msgid "Please enter phone number"
-msgstr "请输入手机号"
+msgstr "Xin nhập số điện thoại"
 
 msgid "Please correct phone number"
-msgstr "请更正手机号"
+msgstr "Xin sửa số điện thoại"
 
 msgid "Please enter a message text"
-msgstr "请输入信息内容"
+msgstr "Xin nhập nội dung thông điệp"
 
 msgid "Please select the message(s) to be deleted"
-msgstr "请选择要删除的信息"
+msgstr "Xin chọn thông điệp để xóa"
 
 msgid "Reply"
-msgstr "回复"
+msgstr "Hồi âm"
 
 msgid "SMS sent sucessfully"
-msgstr "信息发送成功"
+msgstr "Thông điệp SMS đã gửi thành công"
 
 msgid "Delete selected message(s)?"
-msgstr "删除选择的信息?"
+msgstr "Xóa thông điệp đã chọn?"
 
 msgid "Delete all the messages?"
-msgstr "删除所有信息?"
+msgstr "Xóa tất cả thông điệp?"
 
 msgid "Configuration sms-tool"
-msgstr "配置 sms-tool"
+msgstr "Cấu hình công cụ sms"
 
 msgid "Configuration panel for sms_tool and gui application."
-msgstr "sms_tool 和 gui 应用程序的配置面板."
+msgstr "Bảng cấu hình cho công cụ sms và ứng dụng giao diện người dùng"
 
 msgid "Device"
-msgstr "设备"
+msgstr "Thiết bị"
 
 msgid "Web UI for handling messages via sms_tool."
-msgstr "用于通过 sms_tool 处理信息的 Web UI."
+msgstr "Giao diện web để xử lý thông điệp qua công cụ sms"
 
 msgid "Web UI for sending messages via sms_tool."
-msgstr "用于通过 sms_tool 发送信息的 Web UI."
+msgstr "Giao diện web để gửi thông điệp qua công cụ sms"
 
 msgid "Web UI for receiveling messages via sms_tool."
-msgstr "用于通过 sms_tool 接收信息的 Web UI."
+msgstr "Giao diện web để nhận thông điệp qua công cụ sms"
 
 msgid "SIM card"
-msgstr "SIM卡"
+msgstr "Thẻ SIM"
 
 msgid "Modem memory"
-msgstr "Modem内存"
+msgstr "Bộ nhớ Modem"
 
 msgid "Messages store in"
-msgstr "信息存储在"
+msgstr "Lưu trữ thông điệp trong"
 
 msgid "Messages (Inbox / Maximum)"
-msgstr "信息（收件箱/最大）"
+msgstr "Thông điệp (Hộp thư đến / Tối đa)"
 
 msgid "Delete Selected"
-msgstr "删除所选"
+msgstr "Xóa đã chọn"
 
 msgid "Delete message(s)"
-msgstr "删除信息"
+msgstr "Xóa thông điệp"
 
 msgid "Delete All"
-msgstr "删除所有"
+msgstr "Xóa tất cả"
 
 msgid "Send to"
-msgstr "发送到"
+msgstr "Gửi đến"
 
 msgid "Message text"
-msgstr "信息文本"
+msgstr "Nội dung thông điệp"
 
 msgid "Send Message"
-msgstr "发送信息"
+msgstr "Gửi thông điệp"
 
 msgid "Code to send"
-msgstr "代码发送"
+msgstr "Mã để gửi"
 
 msgid "Send Code"
-msgstr "发送代码"
+msgstr "Gửi mã"
 
 msgid "SMS Settings"
-msgstr "SMS 设置"
+msgstr "Cài đặt SMS"
 
 msgid "SMS Reading Port"
-msgstr "SMS 读取端口"
+msgstr "Cổng đọc SMS"
 
 msgid "SMS Sending Port"
-msgstr "SMS 发送端口"
+msgstr "Cổng gửi SMS"
 
 msgid "Add Prefix to Phone Number"
-msgstr "为手机号码添加前缀"
+msgstr "Thêm tiền tố vào số điện thoại"
 
 msgid "Automatically add prefix to the phone number field."
-msgstr "自动为手机号码字段添加前缀."
+msgstr "Tự động thêm tiền tố vào trường số điện thoại."
 
 msgid "Prefix Number"
-msgstr "前缀编号"
+msgstr "Số tiền tố"
 
 msgid "PHONE_NUMBER"
-msgstr "手机号码"
+msgstr "SỐ ĐIỆN THOẠI"
 
 msgid "Refresh SMS"
-msgstr "刷新信息"
+msgstr "Làm mới SMS"
 
 msgid "Explanation of number and prefix"
-msgstr "数字和前缀的解释"
+msgstr "Giải thích về số và tiền tố"
 
 msgid "In the tab for sending SMSes, show an explanation of the prefix and the correct phone number."
-msgstr "在发送短信的选项卡中，显示前缀说明和正确的电话号码."
+msgstr "Trong tab gửi SMS, hiển thị giải thích về tiền tố và số điện thoại chính xác."
 
 msgid "The phone number should be preceded by the country prefix (for Poland it is 48, without '+'). If the number is 5, 4 or 3 characters, it is treated as 'short' and should not be preceded by a country prefix."
-msgstr "电话号码前面应有国家/地区前缀（中国为 86，不带“+”）, 号码是 5、4 或 3 个字符的短号除外."
+msgstr "Số điện thoại phải có tiền tố quốc gia đứng trước (cho Ba Lan là 48, không kèm '+'). Nếu số có 5, 4 hoặc 3 ký tự, nó được coi là 'số ngắn' và không cần có tiền tố quốc gia đứng trước."
 
 msgid "The phone number should be preceded by the country prefix (for Poland it is 48, without +). If the number is 5, 4 or 3 characters, it is treated as.. short and should not be preceded by a country prefix."
-msgstr "电话号码前面应有国家/地区前缀（中国为 86，不带“+”）, 号码是 5、4 或 3 个字符的短号除外."
+msgstr "Số điện thoại phải có tiền tố quốc gia đứng trước (cho Ba Lan là 48, không kèm '+'). Nếu số có 5, 4 hoặc 3 ký tự, nó được coi là số ngắn và không cần có tiền tố quốc gia đứng trước."
 
 msgid "Each line must have the following format: 'Contact name;Phone number'. Save to file '/etc/config/phonebook.user'."
-msgstr "每行必须具有以下格式：“联系人姓名；电话号码”。 保存到文件“/etc/config/phonebook.user”."
+msgstr "Mỗi dòng cần có định dạng sau: 'Tên liên lạc;Số điện thoại'. Lưu vào tệp '/etc/config/phonebook.user'."
 
 msgid "User Phonebook"
-msgstr "电话簿"
+msgstr "Danh bạ người dùng"
 
 msgid "Notification Settings"
-msgstr "通知设置"
+msgstr "Cài đặt thông báo"
 
 msgid "The LED informs about a new message. Before activating this function, please config and save the SMS reading port, time to check SMS inbox and select the notification LED."
-msgstr "LED 新消息通知。 激活此功能前，请配置并保存短信阅读端口，及时查看短信收件箱并选择通知LED."
+msgstr "Đèn LED thông báo về tin nhắn mới. Trước khi kích hoạt chức năng này, vui lòng cấu hình và lưu cổng đọc SMS, thời gian kiểm tra hộp thư đến SMS và chọn đèn LED thông báo."
 
 msgid "Check inbox every minute(s)"
-msgstr "每分钟检查收件箱"
+msgstr "Kiểm tra hộp thư đến mỗi phút"
 
 msgid "Specify how many minutes you want your inbox to be checked."
-msgstr "指定要检查收件箱的分钟数."
+msgstr "Chỉ định số phút bạn muốn hộp thư đến được kiểm tra."
 
 msgid "Notification LED"
-msgstr "通知LED"
+msgstr "Đèn LED thông báo"
 
 msgid "Select the notification LED."
-msgstr "选择通知LED."
+msgstr "Chọn đèn LED thông báo."
 
 msgid "Notify new messages"
-msgstr "通知新消息"
+msgstr "Thông báo tin nhắn mới"
 
 msgid "Turn on the LED for seconds(s)"
-msgstr "打开LED秒数"
+msgstr "Bật đèn LED trong vài giây"
 
 msgid "Turn off the LED for seconds(s)"
-msgstr "关闭LED秒数"
+msgstr "Tắt đèn LED trong vài giây"
 
 msgid "Specify for how long the LED should be on."
-msgstr "指定 LED 应亮多长时间."
+msgstr "Chỉ định thời gian đèn LED nên được bật."
 
 msgid "Specify for how long the LED should be off."
-msgstr "指定 LED 应关闭多长时间."
+msgstr "Chỉ định thời gian đèn LED nên được tắt."
 
 msgid "Merge split messages"
-msgstr "合并分割的消息"
+msgstr "Gộp tin nhắn bị chia"
 
 msgid "Checking this option will make it easier to read the messages, but it will cause a discrepancy in the number of messages shown and received."
-msgstr "选中此选项将使阅读消息更容易，但会导致显示和接收的消息数量出现差异."
+msgstr "Đánh dấu lựa chọn này sẽ giúp việc đọc tin nhắn trở nên dễ dàng hơn, nhưng sẽ gây ra sự chênh lệch về số lượng tin nhắn được hiển thị và nhận được."
 
 msgid "Message storage area"
-msgstr "消息存储区"
+msgstr "Khu vực lưu trữ tin nhắn"
 
 msgid "Messages are stored in a specific location (for example, on the SIM card or modem memory), but other areas may also be available depending on the type of device."
-msgstr "消息存储在特定位置（例如，SIM 卡或调制解调器内存中），但其他区域也可能可用，具体取决于设备类型."
+msgstr "Tin nhắn được lưu trữ tại một vị trí cụ thể (chẳng hạn như trên thẻ SIM hoặc bộ nhớ modem), nhưng tùy thuộc vào loại thiết bị mà cũng có thể có sẵn các khu vực khác."
 
 msgid "AT Commands"
-msgstr "AT 命令"
+msgstr "Các lệnh AT"
 
 msgid "Web UI for handling AT commands via sms_tool."
-msgstr "用于通过 sms_tool 处理 AT 命令的 Web UI."
+msgstr "Giao diện web để xử lý các lệnh AT qua sms_tool."
 
 msgid "Sending commands to modem"
-msgstr "向调制解调器发送命令"
+msgstr "Gửi lệnh tới modem"
 
 msgid "User AT Commands"
-msgstr "用户 AT 命令"
+msgstr "Lệnh AT của người dùng"
 
 msgid "Command to send"
-msgstr "命令发送"
+msgstr "Lệnh cần gửi"
 
 msgid "Please enter a AT Command"
-msgstr "请输入 AT 命令"
+msgstr "Vui lòng nhập lệnh AT"
 
 msgid "AT Commands Sending Port"
-msgstr "AT命令发送端口"
+msgstr "Cổng gửi lệnh AT"
 
 msgid "Send Command"
-msgstr "发送命令"
+msgstr "Gửi lệnh"
 
 msgid "AT Commands Settings"
-msgstr "AT命令设置"
+msgstr "Cài đặt lệnh AT"
 
 msgid "Each line must have the following format: 'AT Command name;AT Command'. Save to file '/etc/config/atcmds.user'."
-msgstr "每行必须具有以下格式：'AT Command name;AT Command'。 保存到文件“/etc/config/atcmds.user”."
+msgstr "Mỗi dòng phải có định dạng sau: 'Tên lệnh AT;Lệnh AT'. Lưu vào file '/etc/config/atcmds.user'."
 
 msgid "Restart the inbox checking process every"
-msgstr "每次重新启动收件箱检查过程"
+msgstr "Khởi động lại quá trình kiểm tra hòm thư đến mỗi"
 
 msgid "The process will restart at the selected time interval. This will eliminate the delay in checking your inbox."
-msgstr "该过程将在选定的时间间隔重新开始。 这将消除检查收件箱的延迟."
+msgstr "Quy trình sẽ được khởi động lại theo khoảng thời gian đã chọn. Điều này sẽ loại bỏ độ trễ trong việc kiểm tra hòm thư của bạn."
 
 msgid "4h"
-msgstr "4小时."
+msgstr "4 giờ"
 
 msgid "6h"
-msgstr "6小时."
+msgstr "6 giờ"
 
 msgid "8h"
-msgstr "8小时."
+msgstr "8 giờ"
 
 msgid "12h"
-msgstr "12小时."
+msgstr "12 giờ"
 
 msgid "The diode is dedicated only to these notifications"
-msgstr "二极管仅用于这些通知"
+msgstr "Diode được dành riêng chỉ để thông báo này"
 
 msgid "Select 'No' in case the router has only one LED or if the LED is multi-tasking."
-msgstr "如果路由器只有一个 LED 或者 LED 是多任务处理，请选择“否”."
-
+msgstr "Chọn 'Không' nếu router chỉ có một đèn LED hoặc nếu đèn LED đó thực hiện nhiều nhiệm vụ."

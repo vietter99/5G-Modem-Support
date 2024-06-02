@@ -17,643 +17,643 @@ msgstr ""
 "X-Generator: Weblate 5.5-dev\n"
 
 msgid "Base Setting"
-msgstr "基本设置"
+msgstr "Cài đặt Cơ bản"
 
 msgid "Modem"
-msgstr "移动通信模组"
+msgstr "Modem"
 
 msgid "Modem Config"
-msgstr "模组配置"
+msgstr "Cấu hình Modem"
 
 msgid "Modem Status"
-msgstr "模组状态"
+msgstr "Trạng thái Modem"
 
 msgid "Modem Name"
-msgstr "模组名称"
+msgstr "Tên Modem"
 
 msgid "Modem Debug"
-msgstr "模组调试"
+msgstr "Gỡ lỗi Modem"
 
 msgid "Modem Select"
-msgstr "模组选择"
+msgstr "Chọn Modem"
 
 msgid "Check the information of the adapted modem"
-msgstr "查看已适配模组的信息"
+msgstr "Kiểm tra thông tin của modem đã thích ứng"
 
 msgid "Not adapted to this modem"
-msgstr "未适配该模组"
+msgstr "Không thích nghi với modem này"
 
 msgid "(Check adapted modem)"
-msgstr "（查看已适配模组）"
+msgstr "(Kiểm tra modem thích nghi)"
 
 msgid "Loading modem information"
-msgstr "正在加载模组信息"
+msgstr "Đang tải thông tin modem"
 
 msgid "Loading modem status"
-msgstr "正在加载模组状态"
+msgstr "Đang tải trạng thái modem"
 
 msgid "Loading modem"
-msgstr "正在加载模组"
+msgstr "Đang tải modem"
 
 msgid "Dial Overview"
-msgstr "拨号总览"
+msgstr "Tổng quan Cuộc gọi"
 
 msgid "Check and add modem dialing configurations"
-msgstr "查看和添加模组拨号配置"
+msgstr "Kiểm tra và thêm cấu hình gọi modem"
 
 msgid "Global Config"
-msgstr "全局配置"
+msgstr "Cấu hình Toàn cầu"
 
 msgid "Dial Log"
-msgstr "拨号日志"
+msgstr "Nhật ký Cuộc gọi"
 
 msgid "Download Log"
-msgstr "下载日志"
+msgstr "Tải xuống Nhật ký"
 
 msgid "connect"
-msgstr "已连接"
+msgstr "kết nối"
 
 msgid "disconnect"
-msgstr "未连接"
+msgstr "ngắt kết nối"
 
 msgid "disabled"
-msgstr "未启用"
+msgstr "bị vô hiệu"
 
 msgid "Data Interface"
-msgstr "数据接口"
+msgstr "Giao diện Dữ liệu"
 
 msgid "Mode"
-msgstr "模式"
+msgstr "Chế độ"
 
 msgid "Connect Status"
-msgstr "连接状态"
+msgstr "Trạng thái Kết nối"
 
 msgid "Dial Config"
-msgstr "拨号配置"
+msgstr "Cấu hình Cuộc gọi"
 
 msgid "Config List"
-msgstr "配置列表"
+msgstr "Danh sách Cấu hình"
 
 msgid "Debug Your Module"
-msgstr "调试你的模组"
+msgstr "Gỡ lỗi Mô đun của bạn"
 
 msgid "Select a modem for debugging"
-msgstr "选择一个模组进行调试"
+msgstr "Chọn modem để gỡ lỗi"
 
 msgid "Network Preferences"
-msgstr "网络偏好"
+msgstr "Ưu tiên Mạng"
 
 msgid "Self Test"
-msgstr "自检"
+msgstr "Tự kiểm tra"
 
 msgid "Current"
-msgstr "当前"
+msgstr "Hiện tại"
 
 msgid "Option"
-msgstr "选项"
+msgstr "Tùy chọn"
 
 msgid "Config"
-msgstr "配置"
+msgstr "Cấu hình"
 
 msgid "Item"
-msgstr "项目"
+msgstr "Mục"
 
 msgid "Voltage"
-msgstr "电压"
+msgstr "Điện áp"
 
 msgid "Status"
-msgstr "状态"
+msgstr "Trạng thái"
 
 msgid "Abnormal"
-msgstr "异常"
+msgstr "Bất thường"
 
 msgid "Normal"
-msgstr "正常"
+msgstr "Bình thường"
 
 msgid "Low"
-msgstr "偏低"
+msgstr "Thấp"
 
 msgid "Somewhat High"
-msgstr "偏高"
+msgstr "Hơi Cao"
 
 msgid "Excessively High"
-msgstr "过高"
+msgstr "Quá Cao"
 
 msgid "AT Command"
-msgstr "AT命令"
+msgstr "Lệnh AT"
 
 msgid "Quick Option"
-msgstr "快捷选项"
+msgstr "Tùy chọn Nhanh"
 
 msgid "Auto"
-msgstr "自动"
+msgstr "Tự động"
 
 msgid "Custom"
-msgstr "自定义"
+msgstr "Tùy chỉnh"
 
 msgid "Quick Commands"
-msgstr "快捷命令"
+msgstr "Lệnh Nhanh"
 
 msgid "Enter Command"
-msgstr "输入命令"
+msgstr "Nhập Lệnh"
 
 msgid "Apply"
-msgstr "应用"
+msgstr "Áp dụng"
 
 msgid "Send"
-msgstr "发送"
+msgstr "Gửi"
 
 msgid "Clean"
-msgstr "清空"
+msgstr "Làm sạch"
 
 msgid "Response"
-msgstr "响应"
+msgstr "Phản hồi"
 
 msgid "Return to old page"
-msgstr "返回旧界面"
+msgstr "Quay lại trang cũ"
 
 msgid "Return to modem debug"
-msgstr "返回模组调试界面"
+msgstr "Trở về gỡ lỗi modem"
 
 msgid "Custom quick commands"
-msgstr "自定义快捷命令"
+msgstr "Lệnh nhanh tùy chỉnh"
 
 msgid "Customize your quick commands"
-msgstr "自定义你的快捷命令"
+msgstr "Tùy chỉnh lệnh nhanh của bạn"
 
 msgid "Custom Commands"
-msgstr "自定义命令"
+msgstr "Lệnh Tùy chỉnh"
 
 msgid "Serial Number"
-msgstr "序号"
+msgstr "Số Serial"
 
 msgid "Description"
-msgstr "描述"
+msgstr "Mô tả"
 
 msgid "Command"
-msgstr "命令"
+msgstr "Lệnh"
 
 msgid "Modem Information"
-msgstr "模组信息"
+msgstr "Thông tin Modem"
 
 msgid "No modems found"
-msgstr "没有找到模组"
+msgstr "Không tìm thấy modem"
 
 msgid "(Check the reason)"
-msgstr "（查看原因）"
+msgstr "(Kiểm tra lý do)"
 
 msgid "Enable dial configurations"
-msgstr "启用拨号配置"
+msgstr "Kích hoạt cấu hình gọi"
 
 msgid "General Settings"
-msgstr "通用配置"
+msgstr "Cài đặt Chung"
 
 msgid "Advanced Settings"
-msgstr "高级配置"
+msgstr "Cài đặt Nâng cao"
 
 msgid "Remarks"
-msgstr "备注"
+msgstr "Nhận xét"
 
 msgid "Mobile Network"
-msgstr "移动网络"
+msgstr "Mạng Di động"
 
 msgid "UNKNOWN"
-msgstr "未知"
+msgstr "CHƯA BIẾT"
 
 msgid "Unknown"
-msgstr "未知"
+msgstr "Không rõ"
 
 msgid "unknown"
-msgstr "未知"
+msgstr "không biết"
 
 msgid "Mobile network not found"
-msgstr "未发现移动网络"
+msgstr "Không tìm thấy mạng di động"
 
 msgid "The network device was not found"
-msgstr "找不到网络设备"
+msgstr "Không tìm thấy thiết bị mạng"
 
 msgid "Only display the modes available for the adaptation modem"
-msgstr "仅显示适配模组可用的拨号模式"
+msgstr "Chỉ hiển thị các chế độ có sẵn cho modem thích hợp"
 
 msgid "Config ID"
-msgstr "配置 ID"
+msgstr "ID Cấu hình"
 
 msgid "Dial Tool"
-msgstr "拨号工具"
+msgstr "Công cụ Quay số"
 
 msgid "After switching the dialing tool, it may be necessary to restart the module or restart the router to recognize the module."
-msgstr "切换拨号工具后，可能需要重启模组或重启路由器才能识别模组。"
+msgstr "Sau khi chuyển đổi công cụ quay số, có thể cần phải khởi động lại mô-đun hoặc khởi động lại bộ định tuyến để nhận diện mô-đun."
 
 msgid "Auto Choose"
-msgstr "自动选择"
+msgstr "Tự động Chọn"
 
 msgid "quectel-CM"
-msgstr "移远模组拨号工具"
+msgstr "Công cụ Quay số quectel-CM"
 
 msgid "mmcli"
-msgstr "调制解调器管理工具"
+msgstr "Công cụ quản lý modem mmcli"
 
 msgid "PDP Type"
-msgstr "网络类型"
+msgstr "Loại PDP"
 
 msgid "Network Bridge"
-msgstr "网络桥接"
+msgstr "Cầu Mạng"
 
 msgid "After checking, enable network interface bridge."
-msgstr "勾选后，启用网络接口桥接。"
+msgstr "Sau khi kiểm tra, bật cầu giao diện mạng."
 
 msgid "APN"
-msgstr "接入点"
+msgstr "Điểm Truy cập Mạng"
 
 msgid "China Mobile"
-msgstr "中国移动"
+msgstr "Viet Nam Di Động"
 
 msgid "China Unicom"
-msgstr "中国联通"
+msgstr "Viet Nam Liên Lạc"
 
 msgid "China Telecom"
-msgstr "中国电信"
+msgstr "Viet Nam Viễn Thông"
 
 msgid "China Broadcast"
-msgstr "中国广电"
+msgstr "Viet Nam Phát Thanh"
 
 msgid "Skytone"
-msgstr "天际通"
+msgstr "Skytone"
 
 msgid "Authentication Type"
-msgstr "认证类型"
+msgstr "Loại Xác thực"
 
 msgid "PAP/CHAP (both)"
-msgstr "PAP/CHAP (均使用)"
+msgstr "PAP/CHAP (cả hai)"
 
 msgid "NONE"
-msgstr "无"
+msgstr "Không"
 
 msgid "PAP/CHAP Username"
-msgstr "PAP/CHAP 用户名"
+msgstr "Tên đăng nhập PAP/CHAP"
 
 msgid "PAP/CHAP Password"
-msgstr "PAP/CHAP 密码"
+msgstr "Mật khẩu PAP/CHAP"
 
 msgid "Message"
-msgstr "信息"
+msgstr "Thông điệp"
 
 msgid "Base Information"
-msgstr "基本信息"
+msgstr "Thông tin Cơ bản"
 
 msgid "Manufacturer"
-msgstr "制造商"
+msgstr "Nhà Sản xuất"
 
 msgid "Revision"
-msgstr "固件版本"
+msgstr "Sửa đổi"
 
 msgid "AT Port"
-msgstr "AT串口"
+msgstr "Cổng AT"
 
 msgid "Temperature"
-msgstr "温度"
+msgstr "Nhiệt độ"
 
 msgid "Update Time"
-msgstr "更新时间"
+msgstr "Thời gian Cập nhật"
 
 msgid "SIM Information"
-msgstr "SIM卡信息"
+msgstr "Thông tin SIM"
 
 msgid "Unknown SIM card status"
-msgstr "未知SIM卡状态"
+msgstr "Trạng thái thẻ SIM Không xác định"
 
 msgid "SIM card not inserted"
-msgstr "SIM卡未插入"
+msgstr "Thẻ SIM chưa được lắp"
 
-msgid "ISP"
-msgstr "运营商"
+ msgid "ISP"
+msgstr "Nhà cung cấp dịch vụ Internet"
 
 msgid "SIM Status"
-msgstr "SIM卡状态"
+msgstr "Tình trạng SIM"
 
 msgid "miss"
-msgstr "未插入"
+msgstr "không có"
 
 msgid "locked"
-msgstr "锁定"
+msgstr "bị khóa"
 
 msgid "SIM Slot"
-msgstr "SIM卡卡槽"
+msgstr "Khay SIM"
 
 msgid "SIM Number"
-msgstr "SIM卡号码"
+msgstr "Số SIM"
 
 msgid "IMEI"
-msgstr "国际移动设备识别码"
+msgstr "IMEI"
 
 msgid "IMSI"
-msgstr "国际移动用户识别码"
+msgstr "IMSI"
 
 msgid "ICCID"
-msgstr "集成电路卡识别码"
+msgstr "ICCID"
 
 msgid "Network Information"
-msgstr "网络信息"
+msgstr "Thông tin mạng"
 
 msgid "Network Type"
-msgstr "网络类型"
+msgstr "Loại mạng"
 
 msgid "CQI UL"
-msgstr "上行信道质量指示"
+msgstr "Chỉ số CQI UL"
 
 msgid "CQI DL"
-msgstr "下行信道质量指示"
+msgstr "Chỉ số CQI DL"
 
 msgid "AMBR UL"
-msgstr "上行访问最大比特率"
+msgstr "Băng thông tối đa lên AMBR UL"
 
 msgid "AMBR DL"
-msgstr "下行访问最大比特率"
+msgstr "Băng thông tối đa xuống AMBR DL"
 
 msgid "Tx Rate"
-msgstr "上传速率"
+msgstr "Tốc độ truyền Tx"
 
 msgid "Rx Rate"
-msgstr "下载速率"
+msgstr "Tốc độ nhận Rx"
 
 msgid "RSSI"
-msgstr "接收信号强度指示"
+msgstr "Chỉ số RSSI"
 
 msgid "BER"
-msgstr "信道误码率"
+msgstr "Tỷ lệ lỗi bit BER"
 
 msgid "Cell Information"
-msgstr "小区信息"
+msgstr "Thông tin ô mạng"
 
 msgid "Network Mode"
-msgstr "网络模式"
+msgstr "Chế độ mạng"
 
 msgid "NR5G-SA Mode"
-msgstr "NR5G-SA 模式"
+msgstr "Chế độ NR5G-SA"
 
 msgid "EN-DC Mode"
-msgstr "EN-DC 模式"
+msgstr "Chế độ EN-DC"
 
 msgid "LTE Mode"
-msgstr "LTE 模式"
+msgstr "Chế độ LTE"
 
 msgid "WCDMA Mode"
-msgstr "WCDMA 模式"
+msgstr "Chế độ WCDMA"
 
 msgid "GSM Mode"
-msgstr "GSM 模式"
+msgstr "Chế độ GSM"
 
 msgid "MCC"
-msgstr "移动国家代码 (MCC)"
+msgstr "Mã quốc gia di động MCC"
 
 msgid "MNC"
-msgstr "移动网络代码 (MNC)"
+msgstr "Mã mạng di động MNC"
 
 msgid "Duplex Mode"
-msgstr "双工模式 (Duplex Mode)"
+msgstr "Chế độ dùng chung"
 
 msgid "LAC"
-msgstr "位置区码 (LAC)"
+msgstr "Mã khu vực LAC"
 
 msgid "Cell ID"
-msgstr "小区ID (Cell ID)"
+msgstr "Mã ô mạng Cell ID"
 
 msgid "Physical Cell ID"
-msgstr "物理小区ID (Physical Cell ID)"
+msgstr "ID ô mạng vật lý"
 
 msgid "TAC"
-msgstr "跟踪区编码 (TAC)"
+msgstr "Mã khu vực theo dõi TAC"
 
 msgid "ARFCN"
-msgstr "绝对射频信道号 (ARFCN)"
+msgstr "Số kênh tần số vô tuyến tuyệt đối ARFCN"
 
 msgid "EARFCN"
-msgstr "E-UTRA绝对射频信道号 (EARFCN)"
+msgstr "Số kênh EN-UTRA tần số vô tuyến tuyệt đối EARFCN"
 
 msgid "UARFCN"
-msgstr "UTRA绝对射频信道号 (UARFCN)"
+msgstr "Số kênh UTRA tần số vô tuyến tuyệt đối UARFCN"
 
 msgid "Band"
-msgstr "频段 (Band)"
+msgstr "Băng tần"
 
 msgid "Freq band indicator"
-msgstr "频带指示 (Freq band indicator)"
+msgstr "Chỉ số băng tần"
 
 msgid "UL Bandwidth"
-msgstr "上行带宽 (UL Bandwidth)"
+msgstr "Băng thông UL"
 
 msgid "DL Bandwidth"
-msgstr "下行带宽 (DL Bandwidth)"
+msgstr "Băng thông DL"
 
 msgid "RSRP"
-msgstr "参考信号接收功率 (RSRP)"
+msgstr "Công suất tiếp nhận tín hiệu tham khảo RSRP"
 
 msgid "RSRQ"
-msgstr "参考信号接收质量 (RSRQ)"
+msgstr "Chất lượng tiếp nhận tín hiệu tham khảo RSRQ"
 
 msgid "RSSI"
-msgstr "接收信号强度指示 (RSSI)"
+msgstr "Chỉ số cường độ tín hiệu nhận RSSI"
 
 msgid "SINR"
-msgstr "信号与干扰加噪声比 (SINR)"
+msgstr "Tỷ lệ tín hiệu nhiễu SINR"
 
 msgid "RxLev"
-msgstr "接收信号功率 (RxLev)"
+msgstr "Cường độ tín hiệu nhận RxLev"
 
 msgid "RSSNR"
-msgstr "信号干扰比 (RSSNR)"
+msgstr "Tỷ lệ tín hiệu nhiễu RSSNR"
 
 msgid "SCS"
-msgstr "NR子载波间隔 (SCS)"
+msgstr "Khoảng cách tiểu khu SCS"
 
 msgid "CQI"
-msgstr "信道质量指示 (CQI)"
+msgstr "Chỉ số chất lượng kênh CQI"
 
 msgid "TX Power"
-msgstr "TX 功率 (TX Power)"
+msgstr "Công suất phát TX"
 
 msgid "Srxlev"
-msgstr "服务小区接收信号功率 (Srxlev)"
+msgstr "Công suất nhận từ ô dịch vụ Srxlev"
 
 msgid "PSC"
-msgstr "主扰码 (PSC)"
+msgstr "Mã gây rối chính PSC"
 
 msgid "RAC"
-msgstr "路由区域码 (RAC)"
+msgstr "Mã vùng định tuyến RAC"
 
 msgid "RSCP"
-msgstr "接收信号码功率 (RSCP)"
+msgstr "Công suất tín hiệu nhận RSCP"
 
 msgid "Eb/Io"
-msgstr "每比特能量与干扰功率密度(干扰比)之比"
+msgstr "Eb/Io"
 
 msgid "Eb/No"
-msgstr "每比特能量与噪声功率密度(噪声比)之比"
+msgstr "Eb/No"
 
 msgid "Ec/Io"
-msgstr "每码片能量与干扰功率密度(干扰比)之比"
+msgstr "Ec/Io"
 
 msgid "Ec/No"
-msgstr "每码片能量与噪声功率密度(噪声比)之比"
+msgstr "Ec/No"
 
 msgid "Physical Channel"
-msgstr "物理信道 (Physical Channel)"
+msgstr "Kênh vật lý"
 
 msgid "Spreading Factor"
-msgstr "扩频因子 (Spreading Factor)"
+msgstr "Yếu tố lan truyền"
 
 msgid "Slot"
-msgstr "插槽格式 (Slot)"
+msgstr "Khe"
 
 msgid "Speech Code"
-msgstr "语音编码 (Speech Code)"
+msgstr "Mã hóa giọng nói"
 
 msgid "Compression Mode"
-msgstr "压缩模式 (Compression Mode)"
+msgstr "Chế độ nén"
 
 msgid "CHN-CMCC"
-msgstr "中国移动"
+msgstr "Viettel"
 
 msgid "CMCC"
-msgstr "中国移动"
+msgstr "Viettel"
 
 msgid "46000"
-msgstr "中国移动"
+msgstr "Viettel"
 
 msgid "CHN-UNICOM"
-msgstr "中国联通"
+msgstr "Vinaphone"
 
 msgid "UNICOM"
-msgstr "中国联通"
+msgstr "Vinaphone"
 
 msgid "CUCC"
-msgstr "中国联通"
+msgstr "Vinaphone"
 
 msgid "46001"
-msgstr "中国联通"
+msgstr "Vinaphone"
 
 msgid "CHN-CT"
-msgstr "中国电信"
+msgstr "Mobifone"
 
 msgid "CHN-TELECOM"
-msgstr "中国电信"
+msgstr "Mobifone"
 
 msgid "CTCC"
-msgstr "中国电信"
+msgstr "Mobifone"
 
 msgid "CT"
-msgstr "中国电信"
+msgstr "Mobifone"
 
 msgid "46011"
-msgstr "中国电信"
+msgstr "Mobifone"
 
 msgid "Excellent"
-msgstr "优秀"
+msgstr "Xuất sắc"
 
 msgid "Good"
-msgstr "良好"
+msgstr "Tốt"
 
 msgid "Fair"
-msgstr "一般"
+msgstr "Khá"
 
 msgid "Bad"
-msgstr "较差"
+msgstr "Tệ"
 
 msgid "Plugin Config"
-msgstr "插件配置"
+msgstr "Cấu hình Plugin"
 
 msgid "Check and modify the plugin configuration"
-msgstr "查看和修改插件配置"
+msgstr "Kiểm tra và sửa đổi cấu hình plugin"
 
 msgid "Modem Scan"
-msgstr "模组扫描"
+msgstr "Quét Modem"
 
 msgid "Scan"
-msgstr "扫描"
+msgstr "Quét"
 
 msgid "Scaning modem..."
-msgstr "正在扫描中..."
+msgstr "Đang quét modem..."
 
 msgid "The automatic configuration modem is triggered only at modem startup, otherwise, manual scanning is necessary"
-msgstr "自动配置模组只有在模组启动的时候才会触发，其他情况需要手动点击扫描"
+msgstr "Cấu hình modem tự động chỉ được kích hoạt khi modem khởi động, nếu không cần thực hiện quét thủ công"
 
 msgid "Manual Configuration"
-msgstr "手动配置"
+msgstr "Cấu hình Thủ công"
 
 msgid "Enable the manual configuration of modem information"
-msgstr "启用手动配置模组信息"
+msgstr "Kích hoạt cấu hình thủ công thông tin modem"
 
 msgid "(After enable, the automatic scanning and configuration function for modem information will be disabled)"
-msgstr "（启用后将禁用自动扫描并配置模组信息功能）"
+msgstr "(Sau khi kích hoạt, chức năng quét và cấu hình tự động thông tin modem sẽ bị vô hiệu hoá)"
 
 msgid "Network Interface Alias"
-msgstr "网络接口别名"
+msgstr "Biệt danh Giao diện Mạng"
 
 msgid "Enable automatic creation of network interface alias (Effective upon reinstatement of dialing configuration)"
-msgstr "启用自动创建网络接口别名（重新启用拨号配置后生效）"
+msgstr "Kích hoạt tạo tự động biệt danh giao diện mạng (Áp dụng khi khôi phục lại cấu hình quay số)"
 
 msgid "Not null"
-msgstr "不能为空"
+msgstr "Không được để trống"
 
 msgid "missing"
-msgstr "有必填选项为空值"
+msgstr "thiếu thông tin cần thiết"
 
 msgid "Plugin Info"
-msgstr "插件信息"
+msgstr "Thông tin Plugin"
 
 msgid "Check the version information of the plugin"
-msgstr "查看插件的版本信息"
+msgstr "Kiểm tra thông tin phiên bản của plugin"
 
 msgid "Plugin Version"
-msgstr "插件版本"
+msgstr "Phiên bản Plugin"
 
 msgid "Dial Tool Info"
-msgstr "拨号工具信息"
+msgstr "Thông tin Công cụ Quay số"
 
 msgid "Version"
-msgstr "版本"
+msgstr "Phiên bản"
 
 msgid "Not installed"
-msgstr "未安装"
+msgstr "Chưa được cài đặt"
 
 msgid "Modem General Driver Info"
-msgstr "模组通用驱动信息"
+msgstr "Thông tin Driver Chung của Modem"
 
 msgid "Driver Type"
-msgstr "驱动类型"
+msgstr "Loại Driver"
 
 msgid "Kernel Model"
-msgstr "内核模块"
+msgstr "Module Hạt Nhân"
 
 msgid "USB Network"
-msgstr "USB网络"
+msgstr "Mạng USB"
 
 msgid "Serial Port"
-msgstr "串口"
+msgstr "Cổng Nối Tiếp"
 
 msgid "Loaded"
-msgstr "已加载"
+msgstr "Đã Tải"
 
 msgid "Not loaded"
-msgstr "未加载"
+msgstr "Chưa Tải"
 
 msgid "Modem USB Driver Info"
-msgstr "模组USB驱动信息"
+msgstr "Thông Tin Driver USB của Modem"
 
 msgid "Modem PCIE Driver Info"
-msgstr "模组PCIE驱动信息"
+msgstr "Thông Tin Driver PCIE của Modem"
 
 msgid "General"
-msgstr "通用"
+msgstr "Chung"
 
 msgid "Private"
-msgstr "私有"
+msgstr "Riêng Tư"
 
 msgid "Private (Quectel)"
-msgstr "私有（移远）"
+msgstr "Riêng Tư (Quectel)"
 
 msgid "Private (Fibocom)"
-msgstr "私有（广和通）"
+msgstr "Riêng Tư (Fibocom)"
 
 msgid "Private (Meig)"
-msgstr "私有（美格）"
+msgstr "Riêng Tư (Meig)"
