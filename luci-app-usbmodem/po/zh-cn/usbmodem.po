@@ -12,13 +12,13 @@ msgstr ""
 "X-Generator: Poedit 2.3.1\n"
 
 msgid "Base Setting"
-msgstr "基本设置"
+msgstr "Cài đặt cơ bản"
 
 msgid "USB Modem Server"
-msgstr "USB移动网络拨号服务"
+msgstr "Dịch vụ USB Modem"
 
 msgid "Modem Server For OpenWrt"
-msgstr "OpenWrt移动网络拨号服务"
+msgstr "Dịch vụ Modem cho OpenWrt"
 
 msgid "Tools"
-msgstr "拨号工具"
+msgstr "Công cụ"
