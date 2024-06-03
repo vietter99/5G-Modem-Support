@@ -1,56 +1,28 @@
-------查询------;AT
-Kiểm tra;AT
-
+------Kiểm tra------;AT
 Xem IMEI;AT+CGSN
-
 Thông tin phiên bản firmware;AT+GMR
-
 Cường độ tín hiệu;AT+CSQ
-
 Thông tin mạng đang sử dụng;AT+QNWINFO
-
 Truy vấn giới hạn tốc độ;AT+C5GQOSRDP=1
-
 Nhiệt độ mô-đun;AT+QTEMP
-
 Truy vấn tên nhà mạng;AT+QSPN
-
 Truy vấn thông tin cell;AT+QENG="servingcell"
-
-Cấu hình mạng 3/4/5G;AT
-
+------Cấu hình mạng 3/4/5G------;AT
 Truy vấn chế độ tìm kiếm mạng hiện tại;AT+QNWPREFCFG="mode_pref"
-
 Chuyển đổi chỉ 3G;AT+QNWPREFCFG="mode_pref",WCDMA
-
 Chuyển đổi chỉ 4G;AT+QNWPREFCFG="mode_pref",LTE
-
 Chuyển đổi chỉ 5G;AT+QNWPREFCFG="mode_pref",NR5G
-
 Chuyển đổi 5G,4G;AT+QNWPREFCFG="mode_pref",NR5G:LTE
-
 Chuyển đổi AUTO;AT+QNWPREFCFG="mode_pref",AUTO
-
-Khóa dải tần;AT
-
+------Khóa dải tần------;AT
 Truy vấn tất cả các dải tần hỗ trợ;AT+QNWPREFCFG=?
-
 Truy vấn dải tần 5G hiện tại đã cấu hình;AT+QNWPREFCFG="nr5g_band"
-
 Truy vấn dải tần 4G hiện tại đã cấu hình;AT+QNWPREFCFG="lte_band"
-
 Khóa dải tần 5G (78);AT+QNWPREFCFG="nr5g_band",78
-
 Dải tần 5G mặc định;AT+QNWPREFCFG="nr5g_band",1:28:41:77:78:79
-
 Khóa dải tần 4G (1);AT+QNWPREFCFG="lte_band",1
-
 Dải tần 4G mặc định;AT+QNWPREFCFG="lte_band",1:2:3:5:7:8:20:28:34:38:39:40:41
-
-Thêm;AT
-
+------Thêm------;AT
 Xem mô hình sản phẩm;ATI
-
 Treo cuộc gọi hiện tại;ATH
-
 Thay đổi IMEI, cần khởi động lại;AT+EGMR=1,7,"868227050701486"
