@@ -252,34 +252,34 @@ if (document.querySelectorAll('input[name="smsn"]:checked').length === document.
 
 //]]></script>
 
-<h2><%:短信%></h2>
-	<div class="cbi-map-descr"><%:通过sms_tool接收信息的Web用户界面。关于短信工具的更多信息，请见%> <a href="https://eko.one.pl/?p=openwrt-sms_tool" target="_blank"><%:eko.one.pl 论坛%></a>。</div>
-	<p></p>
-	<h4><%:接收的信息%></h4>
-	<div class="table" width="100%">
-	<div class="tr"><div class="td left" width="33%"><%:信息存储在%>:</div><div class="td left"><%=location%></div></div>
-	<div class="tr"><div class="td left" width="33%"><%:信息 (收件箱 / 最大值)%>:</div><div class="td left" id="usse"></div></div>
-	</div>
+<h2>Tin nhắn</h2>
+<div class="cbi-map-descr">Giao diện người dùng web để nhận tin nhắn thông qua smstool. Để biết thêm thông tin về công cụ tin nhắn, vui lòng xem tại <a href="https://eko.one.pl/?p=openwrt-smstool" target="_blank">diễn đàn eko.one.pl</a>.</div>
+<p></p>
+<h4>Tin nhắn đã nhận</h4>
+<div class="table" width="100%">
+<div class="tr"><div class="td left" width="33%">Tin nhắn được lưu trữ tại:</div><div class="td left"><%=location%></div></div>
+<div class="tr"><div class="td left" width="33%">Tin nhắn (Inbox / Tối đa):</div><div class="td left" id="usse"></div></div>
+</div>
 
-	<table id="smsTable" width="100%" class="table">
-  	<tr class="tr cbi-rowstyle-2">
+<table id="smsTable" width="100%" class="table">
+<tr class="tr cbi-rowstyle-2">
 
-    	<td class="td left" width="7%"><input type='checkbox' id='allcheck' onclick='toggle(this);'/></td>
-    	<td class="td left" width="11%"><strong><%:来自%></strong></td>
-    	<td class="td left" width="15%"><strong><%:收到%></strong></td>
-    	<td class="td center" width="66%" ><strong><%:信息%></strong></td>
+<td class="td left" width="7%"><input type='checkbox' id='allcheck' onclick='toggle(this);'/></td>
+<td class="td left" width="11%"><strong>Từ</strong></td>
+<td class="td left" width="15%"><strong>Nhận lúc</strong></td>
+<td class="td center" width="66%" ><strong>Nội dung</strong></td>
 
- 	</tr>
-	</table>
+</tr>
+</table>
 
-	<div class="table" width="100%" >
-    	<div class="tr cbi-rowstyle-2">
-	
-	<div class="td right" style="width:100%;">
-	<div style="float: left;"></div>
-	<input type="button" id="delbtn" class="btn cbi-button cbi-button-neutral" value="<%:刷新消息%>" onclick="refreshSMS()" />&nbsp;&nbsp;&nbsp;<input type="button" id="delabtn" class="btn cbi-button cbi-button-neutral" value="<%:删除消息(s)%>" onclick="delete_new()" />
+<div class="table" width="100%" >
+<div class="tr cbi-rowstyle-2">
 
-	</div>
-	</div>
+<div class="td right" style="width:100%;">
+<div style="float: left;"></div>
+<input type="button" id="delbtn" class="btn cbi-button cbi-button-neutral" value="Làm mới tin nhắn" onclick="refreshSMS()" />&nbsp;&nbsp;&nbsp;<input type="button" id="delabtn" class="btn cbi-button cbi-button-neutral" value="Xóa tin nhắn" onclick="delete_new()" />
+
+</div>
+</div>
 
 <%+footer%>

@@ -5,40 +5,40 @@
 -- Licensed to the GNU General Public License v3.0.
 -->
 
-	<h2><%:AT 命令%></h2>
-	<div class="cbi-map-descr"><%:Giao diện người dùng web để xử lý các lệnh AT thông qua sms_tool. Để biết thêm thông tin về công cụ sms, hãy xem%> <a href="https://eko.one.pl/?p=openwrt-sms_tool" target="_blank"><%:eko.one.pl Diễn đàn%></a>.</div>
-	<p></p>
-	<h4><%:向调制解调器发送命令%></h4>
-	<div class="table" width="100%">
+<h2>Giao diện AT Command</h2>
+<div class="cbi-map-descr">Giao diện người dùng web để xử lý các lệnh AT thông qua smstool. Để biết thêm thông tin về công cụ sms, hãy xem <a href="https://eko.one.pl/?p=openwrt-smstool" target="_blank">trang diễn đàn eko.one.pl</a>.</div>
+<p></p>
+<h4>Gửi lệnh tới modem</h4>
+<div class="table" width="100%">
 
-		<div class="tr">
-			<div class="td left"><%:用户AT命令%>:</div>
+<div class="tr">
+<div class="td left">Lệnh AT của người dùng:</div>
 
-			<div class="td left";">
-				<select name="ussd" id="pl" onclick="copyFunction()">
+<div class="td left";">
+<select name="ussd" id="pl" onclick="copyFunction()">
 
- 				</select>
-			</div>
-			<div class="td left""></div>
-			</div>
+</select>
+</div>
+<div class="td left""></div>
+</div>
 
-		<div class="tr">
-			<div class="td left" ><%:要发送的命令%>:</div>
-			<div class="td left" ><input type="text" id="code"></div>
-		</div>
+<div class="tr">
+<div class="td left" >Lệnh cần gửi:</div>
+<div class="td left" ><input type="text" id="code"></div>
+</div>
 
-	</div>
+</div>
 
-	<div class="table" width="100%">
-		<div class="td left";"><%:回复%>:
-		<p>
-		<pre id="odp" style="visibility: hidden;"></pre></div>
+<div class="table" width="100%">
+<div class="td left";">Phản hồi:
+<p>
+<pre id="odp" style="visibility: hidden;"></pre></div>
 
-		<div class="tr cbi-rowstyle-2">
-		<div class="td right"><input type="button" style="margin-right: 5%"; id="sendcmd" class="btn cbi-button cbi-button-neutral" value="<%:发送命令%>" /></div>
-		</div>
+<div class="tr cbi-rowstyle-2">
+<div class="td right"><input type="button" style="margin-right: 5%"; id="sendcmd" class="btn cbi-button cbi-button-neutral" value="Gửi lệnh" /></div>
+</div>
 
-	</div>
+</div>
 
 <script type="text/javascript">
 

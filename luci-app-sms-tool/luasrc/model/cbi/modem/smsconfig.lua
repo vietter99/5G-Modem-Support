@@ -36,19 +36,19 @@ local smsnum = string.sub (statusb, 23, 27)
 
 local smscount = string.match(smsnum, '%d+')
 
-m = Map("sms_tool", translate("配置短信工具"),
-	translate("sms_tool和gui应用程序的配置面板。"))
+m = Map("sms_tool", translate("Cấu hình công cụ SMS"),
+	translate("Bảng cấu hình cho ứng dụng sms_tool và gui。"))
 
 s = m:section(NamedSection, 'general' , "sms_tool" , "" .. translate(""))
 s.anonymous = true
-s:tab("sms", translate("SMS 设置"))
-s:tab("ussd", translate("USSD 代码设置"))
-s:tab("at", translate("AT 命令设置"))
-s:tab("info", translate("通知设置"))
+s:tab("sms", translate("Cài đặt tin nhắn SMS"))
+s:tab("ussd", translate("Cài đặt mã USSD"))
+s:tab("at", translate("Cài đặt lệnh AT"))
+s:tab("info", translate("Thông Tin"))
 
 this_tab = "sms"
 
-dev1 = s:taboption(this_tab, Value, "readport", translate("短信读取端口"))
+dev1 = s:taboption(this_tab, Value, "readport", translate("Cổng đọc tin nhắn"))
 if try_devices1 then
 local node
 for node in try_devices1 do
@@ -56,16 +56,16 @@ dev1:value(node, node)
 end
 end
 
-mem = s:taboption(this_tab, ListValue, "storage", translate("信息存储区"), translate("信息存储在一个特定的位置（例如，在SIM卡或调制解调器内存），但根据设备的类型，其他区域也可能是可用的。"))
+mem = s:taboption(this_tab, ListValue, "storage", translate("Khu vực lưu trữ thông tin"), translate("Thông tin được lưu trữ tại một vị trí cụ thể (ví dụ: trong thẻ SIM hoặc bộ nhớ của modem), nhưng tùy theo loại thiết bị, các khu vực khác cũng có thể khả dụng."))
 mem.default = "SM"
-mem:value("SM", translate("SIM 卡"))
-mem:value("ME", translate("调制解调器内存"))
+mem:value("SM", translate("Thẻ SIM"))
+mem:value("ME", translate("Bộ nhớ của modem"))
 mem.rmempty = true
 
-local msm = s:taboption(this_tab, Flag, "mergesms", translate("合并分割的信息"), translate("勾选这个选项会使阅读信息更容易，但会导致显示和接收的信息数量不一致。"))
+local msm = s:taboption(this_tab, Flag, "mergesms", translate("Hợp nhất các tin nhắn bị chia tách"), translate("Chọn tùy chọn này sẽ làm cho việc đọc tin nhắn dễ dàng hơn, nhưng sẽ gây ra sự không nhất quán về số lượng tin nhắn hiển thị và nhận được."))
 msm.rmempty = false
 
-dev2 = s:taboption(this_tab, Value, "sendport", translate("短信发送端口"))
+dev2 = s:taboption(this_tab, Value, "sendport", translate("Cổng gửi tin nhắn"))
 if try_devices2 then
 local node
 for node in try_devices2 do
@@ -73,18 +73,17 @@ dev2:value(node, node)
 end
 end
 
-local t = s:taboption(this_tab, Value, "pnumber", translate("前缀号码"), translate("电话号码的前面应该有国家的前缀（波兰是48，没有'+'）。如果号码是5个、4个或3个字符，它将被视为 '短'，不应该在前面加上国家前缀。"))
+local t = s:taboption(this_tab, Value, "pnumber", translate("Tiền tố số điện thoại"), translate("Số điện thoại nên có tiền tố của quốc gia (ví dụ: 48 cho Ba Lan, không có '+'). Nếu số có 5, 4 hoặc 3 ký tự, nó sẽ được coi là 'ngắn' và không nên thêm tiền tố quốc gia."))
 t.rmempty = true
 t.default = 48
 
-local f = s:taboption(this_tab, Flag, "prefix", translate("为电话号码添加前缀"), translate("自动添加电话号码字段的前缀。"))
+local f = s:taboption(this_tab, Flag, "prefix", translate("Thêm tiền tố vào số điện thoại"), translate("Tự động thêm tiền tố vào trường số điện thoại."))
 f.rmempty = false
 
-
-local i = s:taboption(this_tab, Flag, "information", translate("号码和前缀的解释"), translate("在发送短信的标签中，显示前缀的解释和正确的电话号码。"))
+local i = s:taboption(this_tab, Flag, "information", translate("Giải thích số và tiền tố"), translate("Hiển thị giải thích tiền tố và số điện thoại chính xác trong tab gửi tin nhắn."))
 i.rmempty = false
 
-local ta = s:taboption(this_tab, TextValue, "user_phonebook", translate("用户电话簿"), translate("每一行必须有以下格式。'联系人姓名;电话号码'。保存到文件'/etc/config/phonebook.user'。"))
+local ta = s:taboption(this_tab, TextValue, "user_phonebook", translate("Danh bạ người dùng"), translate("Mỗi dòng phải có định dạng sau: 'Tên liên hệ;Số điện thoại'. Lưu vào file '/etc/config/phonebook.user'."))
 ta.rows = 7
 ta.rmempty = false
 
@@ -93,13 +92,13 @@ function ta.cfgvalue(self, section)
 end
 
 function ta.write(self, section, value)
-    		value = value:gsub("\r\n", "\n")
-    		fs.writefile(PHB_FILE_PATH, value)
+    value = value:gsub("\r\n", "\n")
+    fs.writefile(PHB_FILE_PATH, value)
 end
 
 this_taba = "ussd"
 
-dev3 = s:taboption(this_taba, Value, "ussdport", translate("USSD发送端口"))
+dev3 = s:taboption(this_taba, Value, "ussdport", translate("Cổng gửi USSD"))
 if try_devices3 then
 local node
 for node in try_devices3 do
@@ -107,13 +106,13 @@ dev3:value(node, node)
 end
 end
 
-local u = s:taboption(this_taba, Flag, "ussd", translate("以纯文本发送USSD代码"), translate("以纯文本发送USSD代码。命令没有被编码到PDU中。"))
+local u = s:taboption(this_taba, Flag, "ussd", translate("Gửi mã USSD bằng văn bản thuần túy"), translate("Gửi mã USSD bằng văn bản thuần túy. Lệnh không được mã hóa vào PDU."))
 u.rmempty = false
 
-local p = s:taboption(this_taba, Flag, "pdu", translate("接收没有PDU解码的信息"), translate("接收并显示消息，而不将其解码为PDU。"))
+local p = s:taboption(this_taba, Flag, "pdu", translate("Nhận tin nhắn không giải mã PDU"), translate("Nhận và hiển thị tin nhắn mà không giải mã chúng thành PDU."))
 p.rmempty = false
 
-local tb = s:taboption(this_taba, TextValue, "user_ussd", translate("用户USSD代码"), translate("每一行必须有以下格式。'代码名称;代码'。保存到文件'/etc/config/ussd.user'。"))
+local tb = s:taboption(this_taba, TextValue, "user_ussd", translate("Mã USSD của người dùng"), translate("Mỗi dòng phải có định dạng sau: 'Tên mã;Mã'. Lưu vào file '/etc/config/ussd.user'."))
 tb.rows = 7
 tb.rmempty = true
 
@@ -122,13 +121,13 @@ function tb.cfgvalue(self, section)
 end
 
 function tb.write(self, section, value)
-    		value = value:gsub("\r\n", "\n")
-    		fs.writefile(USSD_FILE_PATH, value)
+    value = value:gsub("\r\n", "\n")
+    fs.writefile(USSD_FILE_PATH, value)
 end
 
 this_tabc = "at"
 
-dev4 = s:taboption(this_tabc, Value, "atport", translate("AT命令的发送端口"))
+dev4 = s:taboption(this_tabc, Value, "atport", translate("Cổng gửi lệnh AT"))
 if try_devices4 then
 local node
 for node in try_devices4 do
@@ -136,7 +135,7 @@ dev4:value(node, node)
 end
 end
 
-local tat = s:taboption(this_tabc, TextValue, "user_at", translate("用户AT命令"), translate("每一行必须有以下格式。'AT命令名称;AT命令'。保存到文件'/etc/config/atcmds.user'。"))
+local tat = s:taboption(this_tabc, TextValue, "user_at", translate("Lệnh AT của người dùng"), translate("Mỗi dòng phải có định dạng sau: 'Tên lệnh AT;Lệnh AT'. Lưu vào file '/etc/config/atcmds.user'."))
 tat.rows = 20
 tat.rmempty = true
 
@@ -145,13 +144,13 @@ function tat.cfgvalue(self, section)
 end
 
 function tat.write(self, section, value)
-    		value = value:gsub("\r\n", "\n")
-    		fs.writefile(AT_FILE_PATH, value)
+    value = value:gsub("\r\n", "\n")
+    fs.writefile(AT_FILE_PATH, value)
 end
 
 this_tabb = "info"
 
-local uw = s:taboption(this_tabb, Flag, "lednotify", translate("通知新消息"), translate("LED通知有新的信息。在激活这个功能之前，请配置并保存短信阅读端口，检查短信收件箱的时间，并选择通知LED。"))
+local uw = s:taboption(this_tabb, Flag, "lednotify", translate("Thông báo tin nhắn mới"), translate("LED thông báo có tin nhắn mới. Trước khi kích hoạt tính năng này, hãy cấu hình và lưu cổng đọc tin nhắn, kiểm tra thời gian hộp thư đến và chọn LED thông báo."))
 uw.rmempty = false
 
 function uw.write(self, section, value)
@@ -176,7 +175,7 @@ return Flag.write(self, section ,value)
 end
 end
 
-local time = s:taboption(this_tabb, Value, "checktime", translate("每(几)分钟检查一次收件箱"), translate("指定你想在多少分钟内检查你的收件箱。"))
+local time = s:taboption(this_tabb, Value, "checktime", translate("Kiểm tra hộp thư đến mỗi (bao nhiêu) phút"), translate("Chỉ định số phút bạn muốn kiểm tra hộp thư đến."))
 time.rmempty = false
 time.maxlength = 2
 time.default = 5
@@ -187,7 +186,7 @@ function time.validate(self, value)
 	end
 end
 
-sync = s:taboption(this_tabb, ListValue, "prestart", translate("每隔一段时间重新启动收件箱检查程序"), translate("该过程将在选定的时间间隔内重新启动。这将消除检查收件箱的延迟。"))
+sync = s:taboption(this_tabb, ListValue, "prestart", translate("Khởi động lại chương trình kiểm tra hộp thư đến theo định kỳ"), translate("Quá trình này sẽ khởi động lại tại khoảng thời gian đã chọn. Điều này sẽ loại bỏ độ trễ trong việc kiểm tra hộp thư đến."))
 sync.default = "6"
 sync:value("4", translate("4h"))
 sync:value("6", translate("6h"))
@@ -195,8 +194,7 @@ sync:value("8", translate("8h"))
 sync:value("12", translate("12h"))
 sync.rmempty = true
 
-
-leds = s:taboption(this_tabb, Value, "smsled", translate("通知LED"), translate("选择通知LED。"))
+leds = s:taboption(this_tabb, Value, "smsled", translate("LED thông báo"), translate("Chọn LED thông báo."))
 if try_leds then
 local node
 local status
@@ -207,18 +205,18 @@ leds:value(all, all)
 end
 end
 
-oled = s:taboption(this_tabb, ListValue, "ledtype", translate("该二极管只专门用于这些通知"), translate("如果路由器只有一个LED，或者LED是多任务的，就选'No'。"))
+oled = s:taboption(this_tabb, ListValue, "ledtype", translate("LED này chỉ dùng riêng cho các thông báo này"), translate("Nếu router chỉ có một LED hoặc LED là đa nhiệm, chọn 'No'."))
 oled.default = "D"
 oled:value("S", translate("No"))
 oled:value("D", translate("Yes"))
 oled.rmempty = true
 
-local timeon = s:taboption(this_tabb, Value, "ledtimeon", translate("每(几)秒打开LED灯"), translate("指定LED应该亮多长时间。"))
+local timeon = s:taboption(this_tabb, Value, "ledtimeon", translate("Mở LED mỗi (bao nhiêu) giây"), translate("Chỉ định thời gian LED nên bật."))
 timeon.rmempty = false
 timeon.maxlength = 3
 timeon.default = 1
 
-local timeoff = s:taboption(this_tabb, Value, "ledtimeoff", translate("每(几)秒关闭LED灯"), translate("指定LED应该关闭多长时间。"))
+local timeoff = s:taboption(this_tabb, Value, "ledtimeoff", translate("Tắt LED mỗi (bao nhiêu) giây"), translate("Chỉ định thời gian LED nên tắt."))
 timeoff.rmempty = false
 timeoff.maxlength = 3
 timeoff.default = 5
